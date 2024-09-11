@@ -1,0 +1,13 @@
+{
+    "name": "my-lambda-function",
+    "version": "1.0.0",
+    "description": "My Lambda function with AWS SDK v3",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@aws-sdk/client-dynamodb": "^3.645.0",
+        "@aws-sdk/client-s3": "^3.645.0"
+    }
+}
