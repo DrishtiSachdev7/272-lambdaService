@@ -4,7 +4,7 @@ Objective:
 
 A simple serverless web application using AWS Lambda and Amazon DynamoDB as the database service. It performs the basic CRUD operations.
 
-Lambda function, 
+Lambda function, https://github.com/DrishtiSachdev7/272-lambdaService/blob/main/index.js
 
 POST API CALL,
 ![image_description](https://github.com/user-attachments/assets/843fad9b-f65d-4a7a-af19-4bd5289fadff)
