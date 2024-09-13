@@ -1,13 +1,12 @@
 const { DynamoDBClient, GetItemCommand, PutItemCommand, UpdateItemCommand, DeleteItemCommand } = require('@aws-sdk/client-dynamodb');
 
-// Initialize the DynamoDB client
-const dynamoDB = new DynamoDBClient({ region: 'us-east-1' }); // Update region if needed
+const dynamoDB = new DynamoDBClient({ region: 'us-east-1' }); 
 const dynamoDBTable = 'StudentRecords';
 const healthPath = '/health';
 const studentPath = '/students';
 
 exports.handler = async function(event) {
-    console.log('Request event: ', JSON.stringify(event, null, 2)); // Log the full event
+    console.log('Request event: ', JSON.stringify(event, null, 2)); 
 
     let response;
     try {
